@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+
+@layer base {
+    *::-webkit-scrollbar{
+        display: none;
+    }
+    table {
+        Thead {
+            @apply !border-b-0;
+        }
+        tr {
+            @apply !border-b-0;
+        }
+        td, th {
+            @apply odd:bg-gray-100 !px-4 !py-2;
+        }
+    }
+}
+
