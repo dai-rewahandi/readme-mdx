@@ -22,21 +22,43 @@ bun run dev
 
 ![alt text](doc/Readme-Dai.jpeg)
 
-## License
+### Performance
 
-MIT
+![alt text](doc/me.dairewahandi.or.id-desktop_pages-to-jpg-0001.jpg)
 
-## Packages
+![alt text](doc/me.dairewahandi.or.id-mobile_page-0001.jpg)
 
-- [mdx](https://mdxjs.com/)
-- [mdx-js/rollup](https://mdxjs.com/packages/rollup/)
-- [mdx-js/react](https://mdxjs.com/packages/react/)
-- [remark-gfm](https://github.com/remarkjs/remark-gfm)
-- [tailwindcss](https://tailwindcss.com/)
-- [tailwindcss-typography](https://github.com/tailwindlabs/tailwindcss-typography)
-- [prettier](https://prettier.io/)
-- [prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports)
-- [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
-- [vite](https://vitejs.dev/)
-- [react](https://reactjs.org/)
-- [typescript](https://www.typescriptlang.org/)
+### Packages
+
+```json
+{
+  "dependencies": {
+    "@mdx-js/mdx": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "@mdx-js/rollup": "^3.1.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.13",
+    "prettier": "^3.6.2",
+    "prettier-plugin-sort-imports": "^1.8.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "unplugin-inject-preload": "^3.0.0",
+    "vite": "^7.1.2"
+  }
+}
+```
