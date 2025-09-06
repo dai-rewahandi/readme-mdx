@@ -1,14 +1,14 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import mdx from '@mdx-js/rollup'
-import tailwindcss from '@tailwindcss/vite'
-import remarkGfm from 'remark-gfm'
+import tailwindcss from '@tailwindcss/vite';
+import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
+import remarkGfm from 'remark-gfm';
+import mdx from '@mdx-js/rollup';
 export default defineConfig({
   plugins: [
-      react(),
-      mdx({
-          remarkPlugins: [remarkGfm],
-      }),
-      tailwindcss()
+    react(),
+    mdx({
+      remarkPlugins: [remarkGfm],
+    }),
+    tailwindcss(),
   ],
-})
+});
