@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import remarkGfm from 'remark-gfm';
 import mdx from '@mdx-js/rollup';
+import UnpluginInjectPreload from 'unplugin-inject-preload/vite';
 export default defineConfig({
   plugins: [
     react(),
@@ -10,5 +11,12 @@ export default defineConfig({
       remarkPlugins: [remarkGfm],
     }),
     tailwindcss(),
+    UnpluginInjectPreload({
+      files: [
+        {
+          entryMatch: /src\/content\/readme\.mdx/,
+        }
+      ],
+    })
   ],
 });
