@@ -18,7 +18,7 @@ bun run dev
 
 ### Preview
 
-[www.me.dairewahandi.or.id](https://www.me.dairewahandi.or.id)
+[me.dairewahandi.or.id](https://me.dairewahandi.or.id)
 
 ![alt text](doc/Readme-Dai.jpeg)
 
