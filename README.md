@@ -22,13 +22,12 @@ bun run dev
 
 ![alt text](doc/Readme-Dai.jpeg)
 
-
 ## License
 
 MIT
 
-
 ## Packages
+
 - [mdx](https://mdxjs.com/)
 - [mdx-js/rollup](https://mdxjs.com/packages/rollup/)
 - [mdx-js/react](https://mdxjs.com/packages/react/)
