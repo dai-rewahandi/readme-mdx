@@ -13,7 +13,7 @@ const config: Config = {
   proseWrap: 'preserve',
   endOfLine: 'lf',
   quoteProps: 'as-needed',
-  plugins: ['prettier-plugin-sort-imports'],
+  plugins: ['prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
   overrides: [
     {
       files: ['*.tsx', '*.ts', '*.mdx'],
