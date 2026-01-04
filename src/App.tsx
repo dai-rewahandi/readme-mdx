@@ -13,7 +13,7 @@ const App = () => {
         </div>
       </Suspense>
       <p className="mt-6 text-xs text-gray-600">
-        Made with ❤️ by <a href="https://github.com/dai-rewahandi">Dai</a> - Copyright &copy; 2025 All rights reserved.
+        Made with ❤️ by <a href="https://github.com/dai-rewahandi">Dai</a> - Copyright &copy; 2026 All rights reserved.
       </p>
     </div>
   );
