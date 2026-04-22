@@ -32,16 +32,16 @@
 	<div
 		class="flex gap-2 [&>a]:cursor-pointer [&>a]:rounded-full [&>a]:p-1 [&>a]:transition-transform [&>a]:duration-100 [&>a]:hover:scale-120 [&>a]:hover:bg-gray-200"
 	>
-		<a href="#" aria-label="Instagram">
+		<a href="https://instagram.com/dai.rewahandi" aria-label="Instagram">
 			<Icon icon="line-md:instagram" />
 		</a>
-		<a href="#" aria-label="Facebook">
+		<a href="https://facebook.com/dai.rewahandi" aria-label="Facebook">
 			<Icon icon="line-md:facebook" />
 		</a>
-		<a href="#" aria-label="GitHub">
+		<a href="https://github.com/dai-rewahandi" aria-label="GitHub">
 			<Icon icon="line-md:github" />
 		</a>
-		<a href="#" aria-label="Twitter">
+		<a href="https://twitter.com/dai_rewahandi" aria-label="Twitter">
 			<Icon icon="line-md:twitter-x" />
 		</a>
 	</div>
