@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+
+h1 {
+    @apply text-2xl font-black ;
+}
+
+h2 {
+    @apply text-xl font-semibold my-4;
+}
+
+h3 {
+    @apply text-lg font-black my-2;
+}
+
+p {
+    @apply text-base font-light leading-relaxed my-2;
+    a {
+        @apply text-blue-500 underline font-semibold cursor-pointer hover:text-blue-700 transition-colors;
+    }
+}
+
+table {
+    @apply w-full border-collapse border border-gray-200 my-4;
+    th {
+        @apply bg-gray-100 border border-gray-200 px-4 py-2 text-left font-medium text-sm;
+    }
+    td {
+        @apply border border-gray-200 px-4 py-2 text-sm;
+    }
+}
+
+ul {
+    @apply list-disc pl-5 my-2;
+    li {
+        @apply my-1;
+        a {
+            @apply text-blue-500 underline font-semibold cursor-pointer hover:text-blue-700 transition-colors;
+        }
+    }
+}
