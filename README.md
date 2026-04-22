@@ -57,7 +57,7 @@ Jika Anda ingin berkolaborasi atau sekadar menyapa, hubungi saya melalui:
 
 - **Email:** niktodaire@gmail.com
 - **GitHub:** [dai-rewahandi](https://github.com/dai-rewahandi)
-- **Instagram:** [@dai_rewahandi](https://instagram.com/dai_rewahandi)
+- **Instagram:** [@dai.rewahandi](https://instagram.com/dai.rewahandi)
 
 ---
 Dibuat dengan ❤️ menggunakan Svelte.
