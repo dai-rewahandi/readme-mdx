@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 
 	onMount(async () => {
-
 		const gsapModule = await import('gsap');
 		const gsap = gsapModule.default;
 		const { SplitText } = await import('gsap/SplitText');
@@ -19,6 +18,14 @@
 
 <div class="detail">
 	<h2>Tentang Saya</h2>
+	<p>
+		Saya seorang junior web developer, perjalanan saya di dunia koding dimulai dari sebuah alasan
+		yang sederhana: rasa bosan. Pekerjaan saya saat itu adalah sebuah rutinitas yang tidak
+		berhubungan dengan teknologi, dan saya merasa butuh tantangan baru untuk membuat pikiran tetap
+		tajam.
+	</p>
+
+	<h2>Beberapa Project Saya</h2>
 	<p>
 		<a href="https://github.com/dai-rewahandi/basicshoot">basicshoot</a>
 		Basicshoot adalah sebuah tool ringan berbasis Bash yang secara otomatis memantau folder screenshot
