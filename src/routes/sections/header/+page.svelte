@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 	import gsap from 'gsap';
-	import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
+	import ScrambleTextPlugin from 'gsap/ScrambleTextPlugin';
 	import { onMount } from 'svelte';
 	import eye from '../../../lib/assets/icons8-eye.gif';
 
