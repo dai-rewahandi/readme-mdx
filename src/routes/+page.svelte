@@ -3,7 +3,8 @@
 
 	onMount(async () => {
 
-		const { gsap } = await import('gsap');
+		const gsapModule = await import('gsap');
+		const gsap = gsapModule.default;
 		const { SplitText } = await import('gsap/SplitText');
 		gsap.registerPlugin(SplitText);
 
