@@ -8,7 +8,7 @@
 <svelte:head>
 	<title>Dai_rewahandi</title>
 	<meta name="description" content="Personal Website" />
-	<link rel="icon" href="/favicon.svg" />
+	<link rel="icon" href="src/lib/assets/favicon.ico" type="image/x-icon" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<link
