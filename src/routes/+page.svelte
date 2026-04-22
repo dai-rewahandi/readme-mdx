@@ -1,11 +1,12 @@
 <script lang="ts">
-	import gsap from 'gsap';
-	import SplitText from 'gsap/SplitText';
 	import { onMount } from 'svelte';
 
-	gsap.registerPlugin(SplitText);
+	onMount(async () => {
 
-	onMount(() => {
+		const { gsap } = await import('gsap');
+		const { SplitText } = await import('gsap/SplitText');
+		gsap.registerPlugin(SplitText);
+
 		gsap.from('.detail > *', {
 			opacity: 0,
 			y: 100,
@@ -17,12 +18,6 @@
 
 <div class="detail">
 	<h2>Tentang Saya</h2>
-	<p>
-		Saya junior Website developer, perjalanan saya di dunia koding dimulai dari sebuah alasan yang
-		sederhana: rasa bosan. Pekerjaan saya saat itu adalah sebuah rutinitas yang tidak berhubungan
-		dengan teknologi, dan saya merasa butuh tantangan baru untuk membuat pikiran tetap tajam.
-	</p>
-	<h2>Beberapa Repositories Pilihan</h2>
 	<p>
 		<a href="https://github.com/dai-rewahandi/basicshoot">basicshoot</a>
 		Basicshoot adalah sebuah tool ringan berbasis Bash yang secara otomatis memantau folder screenshot

@@ -1,13 +1,16 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-	import gsap from 'gsap';
-	import ScrambleTextPlugin from 'gsap/ScrambleTextPlugin';
 	import { onMount } from 'svelte';
 	import eye from '../../../lib/assets/icons8-eye.gif';
+	
+	onMount(async () => {
 
-	gsap.registerPlugin(ScrambleTextPlugin);
+		const { gsap } = await import('gsap');
+		const { ScrambleTextPlugin } = await import('gsap/ScrambleTextPlugin');
+		gsap.registerPlugin(ScrambleTextPlugin);
 
-	onMount(() => {
+
+
 		const tl = gsap.timeline({
 			id: 'title-animation',
 			defaults: {
