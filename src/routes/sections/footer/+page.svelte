@@ -1,3 +1,3 @@
-<footer class="mt-10">
-	<p>&copy; 2026 Dai_rewahandi. All rights reserved.</p>
+<footer class="mt-10 h-70 flex items-center">
+	<p>&copy; 2026 Dai rewahandi. All rights reserved.</p>
 </footer>

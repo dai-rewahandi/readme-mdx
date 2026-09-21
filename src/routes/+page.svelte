@@ -14,82 +14,32 @@
 			ease: 'power2.inOut'
 		});
 	});
+
+	let { data } = $props();
+	const formatedList = [...data.repo].sort(
+		(a, b) => new Date(a.updated_at).getTime() - new Date(b.updated_at).getTime()
+	);
 </script>
 
 <div class="detail">
 	<h2>Tentang Saya</h2>
 	<p>
-		Saya seorang junior web developer, perjalanan saya di dunia koding dimulai dari sebuah alasan
-		yang sederhana: rasa bosan. Pekerjaan saya saat itu adalah sebuah rutinitas yang tidak
-		berhubungan dengan teknologi, dan saya merasa butuh tantangan baru untuk membuat pikiran tetap
-		tajam.
+    Saya Dai Rewahandi, perjalanan saya di dunia pemrograman berawal dari rasa bosan dan keinginan mengisi waktu luang
+		di tengah rutinitas lama yang jauh dari teknologi. Menulis kode sempat jadi pelarian yang seru,
+		namun hadirnya AI di ranah koding saat ini memberi dinamika baru; kemudahan membuat segalanya
+		otomatis justru perlahan membuat saya merasa makin malas untuk mengulik semuanya sendiri dari
+		nol.
 	</p>
 
-	<h2>Beberapa Project Saya</h2>
-	<p>
-		<a href="https://github.com/dai-rewahandi/basicshoot">basicshoot</a>
-		Basicshoot adalah sebuah tool ringan berbasis Bash yang secara otomatis memantau folder screenshot
-		Anda dan mempercantik setiap gambar baru dengan sudut membulat yang stylish, efek bayangan (drop shadow),
-		latar belakang gradien, dan teks kustom — membuat tangkapan layar (screenshot) Anda tampak menakjubkan
-		secara visual tanpa perlu repot.
-	</p>
-	<p>
-		<a href="https://github.com/dai-rewahandi/VScode-Extension-Downloader-app"
-			>Vscode Extension Downloader</a
-		>
-		Aplikasi ini membantu Anda mengunduh ekstensi dari Visual Studio Code Marketplace dengan mudah sebagai
-		file .vsix — tanpa perlu membuka VS Code itu sendiri. Aplikasi ini sangat cocok untuk editor alternatif
-		berbasis VS Code yang tidak memiliki akses penuh ke Marketplace, atau bagi pengguna yang lebih menyukai
-		kendali manual atas ekstensi mereka.
-	</p>
-
-	<h2>Alat dan Teknologi yang Sering Saya Gunakan</h2>
-	<p>
-		Saya menggunakan beberapa tools dan teknologi yang sangat berguna untuk membuat kode-an yang
-		baik dan mudah dibaca. Berikut ini adalah daftar tools yang saya gunakan.
-	</p>
-
-	<table class="">
-		<thead>
-			<tr>
-				<th>Farmwork</th>
-				<th>Toos</th>
-				<th>Language</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>NextJS</td>
-				<td>NeoVim</td>
-				<td>Python</td>
-			</tr>
-			<tr>
-				<td>Astro</td>
-				<td>SublimeText</td>
-				<td>TypeScript</td>
-			</tr>
-			<tr>
-				<td>Svelte</td>
-				<td>VSCode</td>
-				<td>Bash</td>
-			</tr>
-			<tr>
-				<td>Flask</td>
-				<td>Postman</td>
-				<td>Python</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>Drizzle</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>Apache</td>
-				<td></td>
-			</tr>
-		</tbody>
-	</table>
+	<h2>Publik Repo</h2>
+	<ul>
+		{#each formatedList as list}
+			<li>
+				{list.name}
+				<a href={list.html_url}>[disini]</a>
+			</li>
+		{/each}
+	</ul>
 
 	<h2>Kontak</h2>
 	<p>

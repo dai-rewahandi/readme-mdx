@@ -19,7 +19,7 @@
 		});
 		tl.to('#title', {
 			scrambleText: {
-				text: 'Dai_rewahandi',
+				text: 'Dai Rewahandi',
 				chars: 'abcdefghijklmnopqrstuvwxyz1234567890@#$%^&*()_=+-,./?`~'
 			}
 		});
@@ -29,7 +29,7 @@
 <nav class="flex h-32 items-center justify-between">
 	<div class="flex items-center gap-2">
 		<img src={eye} alt="eye" class="h-5 w-5" />
-		<span id="title" class="flex">Dairewahandi</span>
+		<span id="title" class="flex">Dai Rewahandi</span>
 	</div>
 	<div
 		class="flex gap-2 [&>a]:cursor-pointer [&>a]:rounded-full [&>a]:p-1 [&>a]:transition-transform [&>a]:duration-100 [&>a]:hover:scale-120 [&>a]:hover:bg-gray-200"
